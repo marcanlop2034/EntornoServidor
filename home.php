@@ -24,6 +24,7 @@
                     <a class="btn btn-outline-primary btn-sm" href="./Actividad1/" role="button">Actividad 1</a>
                     <a class="btn btn-outline-primary btn-sm" href="./Actividad2/" role="button">Actividad 2</a>
                     <a class="btn btn-outline-primary btn-sm" href="./Actividad2/" role="button">Pruebas Git, Integración</a>
+                    <a class="btn btn-outline-primary btn-sm" href="./Actividad2/" role="button">Trabjando con Ramas </a>
                 </p>
               
             </div>
