@@ -1,0 +1,33 @@
+h3 {
+    text-align: center ;
+}
+
+.caja{
+    width: 25%;
+    height: 45%;
+    padding: 5%;
+    margin: 20px;
+    background-color: gainsboro;
+    border-radius: 15%;
+
+}
+
+.card {
+    margin: 10%;
+}
+
+.nav-link [href] :hover {
+    background-color: aqua;
+}
+
+a.nav-link:hover, a.navbar-brand:hover{
+    color: rgb(5, 44, 101);
+    background-color:rgb(207, 226, 255);
+    border-radius: 4px;
+    border: solid 1px rgb(158, 197, 254);
+
+}
+p.alert.alert-info, p.alert.alert-primary, p.alert.alert-danger{
+    text-align: center;
+}
+
