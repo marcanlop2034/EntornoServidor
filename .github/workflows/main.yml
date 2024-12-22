@@ -1,0 +1,18 @@
+name: CI -> Deploy to My website
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Here is the deployment action
+      - name: Upload from public_html via FTP
+        uses: airvzxf/ftp-deployment-action@latest
+        with:
+           server: ${{ secrets.HOST }} 
+           user: ${{ secrets.USUARIO }} 
+           password: ${{ secrets.PASSWORD }} 
+           local_dir: "./htdocs"
+          
