@@ -11,8 +11,8 @@ jobs:
       - name: Upload from public_html via FTP
         uses: airvzxf/ftp-deployment-action@latest
         with:
-           server: ${{ secrets.HOST }} 
-           user: ${{ secrets.USUARIO }} 
-           password: ${{ secrets.PASSWORD }} 
-           local_dir: "./htdocs"
+           server: ${{ secrets.INPUT_SERVER }} 
+           user: ${{ secrets.INPUT_USER }} 
+           password: ${{ secrets.INPUT_PASSWORD }} 
+           local_dir: "./"
           
