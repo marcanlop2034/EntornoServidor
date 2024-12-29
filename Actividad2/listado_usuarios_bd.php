@@ -30,6 +30,7 @@ require('mostrarDatos.php'); // Funcion que realiza la consulta en bbdd
                 <button type="submit" class="btn btn-outline-primary btn-sm" name="submit" id="btnMostrar">Mostrar
 
                 </button>
+                <a class="btn btn-outline-success btn-sm" href="UserNew.php">Nuevo</a>
                 <a class="btn btn-outline-success btn-sm" href="sesiones1_logout_bd.php">Cerrar</a>
 
             </div>  
